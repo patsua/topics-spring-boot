@@ -12,7 +12,7 @@ public class TopicController {
 	TopicService topicService;
 	
 	@GetMapping("/topics")
-	public List<Topic> getAllTopics(){
+	public List<Topic> getAllTopicos(){
 		
 		return topicService.getAllTopic();
 	}
